@@ -1,0 +1,30 @@
+.addTodoForm{
+    width: 100vw;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addTodoInput:focus{
+    outline: none;
+}
+.addTodoInput{
+    height: 40px;
+    width: 40%;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: rgb(236, 236, 236);
+}
+.addTodoSubmit:focus{
+    outline: none;
+}
+.addTodoSubmit{
+    width: 100px;
+    height: 40px;
+    background-color:blue;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: white;
+}
+

@@ -1,0 +1,34 @@
+.todoItemList{
+    width: 98.5%;
+    list-style: none;
+    margin-right: 10px;
+    margin-left: 0;
+}
+.todoItemContainer{
+    width:100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 0;
+    border-bottom: 1px solid black;
+}
+.todoContent{
+    font-size: 18px;
+    margin-left: 10px;
+}
+.todoCheckbox{
+    margin: 5px;
+}
+.todoBtn:focus{
+    outline: none;
+}
+.todoBtn{
+    width: 100px;
+    height: 40px;
+    background-color:red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-right: 25px;
+}
